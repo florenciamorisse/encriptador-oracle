@@ -1,0 +1,183 @@
+@import url("https://rsms.me/inter/inter.css");
+html {
+  font-family: "Inter", sans-serif;
+}
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: "Inter var", sans-serif;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #f3f5fc;
+}
+
+header {
+  height: 50px;
+  width: 100%;
+}
+.logo{
+    margin: 48px 0 0 84px;
+}
+main {
+  width: 100%;
+  height: 760px;
+  display: flex;
+  
+}
+section {
+  width: 40%;
+  height: 100%;
+}
+.section1 {
+  width: 55%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.area {
+  width: 60%;
+  height: 50%;
+  display: block; 
+  margin-top: 168px;
+  margin-left: 20%;
+  resize: none;
+  font-size: 32px;
+  font-weight: 400;
+  border: none;
+  outline: none;
+  background-color: #f3f5fc;
+  color: #0a3871;
+}
+::placeholder {
+  color: #0a3871;
+
+}
+
+.texto-sobre-botones{
+    margin-left: 7px;
+    padding-bottom: 9px;
+    width: 67%;
+}
+.contenedor-botones {
+    
+  text-align: center;
+  margin-top: 20px;
+
+}
+.btn-encriptar,
+.btn-desencriptar, .btn-copiar {
+  width: 328px;
+  height: 67px;
+  border-radius: 24px;
+  font-size: 16px;
+  font-weight: 400;
+  
+}
+.btn-encriptar {
+  background-color: #0a3871;
+  color: white;
+  border: none;
+}
+.btn-desencriptar{
+    background-color: 
+    #D8DFE8;
+    border-color: #0A3871;
+    color: #0A3871;
+}
+
+.section2 {
+  width: 20%;
+  height: 87%;
+  background-color: white;
+  border-radius: 32px;
+  box-shadow: 0px 15px 40px black;
+  margin-right: 40px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.contenedor-munieco {
+  width: 100%;
+  height: 60%;
+  box-sizing: border-box;
+  overflow: hidden;
+  padding-top: 100px;
+}
+.contenedor-h3 {
+  width: 100%;
+  height: 20%;
+  text-align: center;
+}
+.contenedor-h3 h1{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.contenedor-parrafo {
+  width: 100%;
+  height: 20%;
+  text-align: center;
+}
+.contenedor-resultado {
+  width: 100%;
+  height: 80%;
+  padding-top: 30px;
+  text-align: center;
+}
+#texto-resultado{
+  padding-top: 30px;
+  color: #495057;
+  font-style: normal;
+  font-size: 24px;
+}
+.contenedor-copiar {
+  width: 100%;
+  height: 20%;
+}
+.btn-copiar {
+  width: 328px;
+  height: 67px;
+  display: block;
+  margin: auto;
+  box-sizing: border-box;
+}
+.mensaje-copy{
+  background-color: rgba(10, 56, 113, 0.7);
+  color: antiquewhite;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 900;
+  visibility: hidden;
+  opacity: 0;
+  font-size: 50px;
+
+}
+
+.show{
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 2s linear;
+  
+}
+footer {
+  width: 100%;
+  height: 100px;
+  background-color:#f3f5fc;  
+  font-size: 18px;
+  display: inline-block;
+  text-align: center;  
+}
+#logoFlor{
+    margin-top: 5px;
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;    
+}
